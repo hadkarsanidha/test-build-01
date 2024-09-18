@@ -1,5 +1,5 @@
 options:
-  logs_bucket: 'gs://test-build'
+  logs_bucket: 'gs://test-build-01'
 
 steps:
   - name: 'gcr.io/cloud-builders/docker'
