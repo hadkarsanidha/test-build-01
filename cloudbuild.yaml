@@ -1,3 +1,6 @@
+options:
+  logs_bucket: 'gs://test-build'
+
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/eng-cogency-430509-q8/hello-world-app', '.']
